@@ -69,7 +69,6 @@
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\glyph.xml" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\chalk.xml" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\Multi Resolution Art\atlas.xml" />
-     <None Include="Assets\Orthello\Standard Assets\OT\_Base\TintedAlpha.shader" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\RotateTowards\-read-me.txt" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />

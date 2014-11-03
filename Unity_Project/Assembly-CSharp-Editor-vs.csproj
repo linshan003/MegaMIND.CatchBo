@@ -46,8 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Orthello\Standard Assets\Editor\OTAssetPostProcessor.cs" />
-     <Compile Include="Assets\Orthello\Standard Assets\Editor\OTPrefabBreaker.cs" />
+     <Compile Include="Assets\Editor\J3DExport.cs" />
+     <Compile Include="Assets\Editor\data\CameraExportData.cs" />
+     <Compile Include="Assets\Editor\data\LightExportData.cs" />
+     <Compile Include="Assets\Editor\data\LightmapExportData.cs" />
+     <Compile Include="Assets\Editor\data\MaterialExportData.cs" />
+     <Compile Include="Assets\Editor\data\MeshExportData.cs" />
+     <Compile Include="Assets\Editor\data\TextureExportData.cs" />
+     <Compile Include="Assets\Editor\data\TransformExportData.cs" />
+     <Compile Include="Assets\Editor\util\ExporterProps.cs" />
+     <Compile Include="Assets\Editor\util\FileExport.cs" />
+     <Compile Include="Assets\Editor\util\MaterialMapper.cs" />
+     <Compile Include="Assets\Editor\util\NamesUtil.cs" />
+     <Compile Include="Assets\Editor\util\Report.cs" />
+     <Compile Include="Assets\Editor\util\TextureUtil.cs" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-ascii.txt" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
      <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
@@ -57,12 +69,17 @@
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\glyph.xml" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\chalk.xml" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\Multi Resolution Art\atlas.xml" />
-     <None Include="Assets\Orthello\Standard Assets\OT\_Base\TintedAlpha.shader" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\RotateTowards\-read-me.txt" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
      <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>C:/Users/David Lin/Documents/GitHub/MegaMIND.CatchBo/Unity_Project/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="antlr.runtime">
+ <HintPath>C:/Users/David Lin/Documents/GitHub/MegaMIND.CatchBo/Unity_Project/Assets/Editor/antlr.runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="StringTemplate">
+ <HintPath>C:/Users/David Lin/Documents/GitHub/MegaMIND.CatchBo/Unity_Project/Assets/Editor/StringTemplate.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
