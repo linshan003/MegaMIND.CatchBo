@@ -3,6 +3,7 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - Ball
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -40,4 +41,12 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: background
+    userID: 1
+    uniqueID: 3305268773
+    locked: 0
+  - name: foreground
+    userID: 2
+    uniqueID: 3284159463
     locked: 0
