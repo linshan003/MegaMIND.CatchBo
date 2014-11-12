@@ -4,8 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour 
 {
 	public Camera cam ;
-	public float maxVX;
-	public float maxVY;
+
 
 	private float maxWidth;
 
@@ -24,11 +23,7 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
-		float x = rigidbody2D.velocity.x;
-		float y = rigidbody2D.velocity.y;
-		//x = Mathf.Clamp (x, -maxVX, maxVX);
-		//y = Mathf.Clamp (y, -maxVX, maxVY);
-		rigidbody2D.velocity = new Vector3 (Mathf.Clamp (x, -maxVX, maxVX), Mathf.Clamp (y, -maxVX, maxVY), 0.0f);
+
 	}
 
 	void FixedUpdate()
