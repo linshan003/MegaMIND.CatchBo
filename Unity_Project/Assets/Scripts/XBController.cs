@@ -28,11 +28,14 @@ public class XBController : MonoBehaviour
 
 	void Update()
 	{
-		if(transform.position.x > maxWidth || transform.position.x < -maxWidth)
+		if(transform.position.x >= maxWidth || transform.position.x <= -maxWidth)
 		{
 			speed *= -1;
 			rigidbody2D.velocity = new Vector3(speed, 0.0f, 0.0f);
+			//yield return WaitForSeconds(2.0f);
 		}
 
 	}
+
+
 }

@@ -228,7 +228,7 @@ GameObject:
   - 114: {fileID: 741675472}
   m_Layer: 0
   m_Name: MasterBO
-  m_TagString: Untagged
+  m_TagString: Bo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 741675468}
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
